@@ -1,6 +1,6 @@
 # ineedjob-template
 
-[English](README.md) | [日本語](README.ja.md)
+[English](README.md) | [日本語](README.ja.md) | [简体中文](README.zh.md)
 
 <p align="center">
   <em>Japanese new-grad interviews are won on 人柄・熱意・可能性 — character, drive, potential — not buzzwords.</em><br>
@@ -99,7 +99,7 @@ The **engine is reusable and contains no personal data** — your facts live in 
 ineedjob-template/
 ├── CLAUDE.md  AGENTS.md     # "Constitution": role, principles, Definition of Done.
 │                            #   Auto-loaded; kept byte-identical by a pre-commit hook.
-├── README.md / README.ja.md
+├── README.md / .ja / .zh    # English / 日本語 / 简体中文
 ├── profile/                 # YOUR data — blank templates to fill
 │   ├── candidate-profile.md   #   single source of truth: facts, Story Bank, boundaries
 │   ├── career-criteria.md     #   your job-search axes
