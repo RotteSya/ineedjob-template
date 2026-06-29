@@ -75,7 +75,7 @@ Check:
 - Did I explain my personal contribution clearly?
 - Did I distinguish team result vs personal contribution?
 - Do I need screenshots, URLs, reports, or notes before the next interview?
-- Should `evidence-ledger.md` be updated?
+- Should `profile/evidence-ledger.md` be updated?
 
 ## 6. Risk Questions
 
@@ -118,7 +118,7 @@ Reflection:
 
 - Update company interview base file:
 - Update integrated/humanized script:
-- Update `candidate-profile.md` if a new reusable fact was discovered:
-- Update `evidence-ledger.md` if a number was challenged or verified:
+- Update `profile/candidate-profile.md` if a new reusable fact was discovered:
+- Update `profile/evidence-ledger.md` if a number was challenged or verified:
 - Prepare evidence:
 - Practice out loud:

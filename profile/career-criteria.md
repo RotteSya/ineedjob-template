@@ -8,7 +8,7 @@ Last updated: <YYYY-MM-DD>
 
 > Core criteria stay stable. Company-specific criteria change in priority, wording, and evidence.
 
-> 企業別の就活軸・志望動機・企業決定軸を考えるための方法論は `axis-motivation-workflow.md`（AI内部ガイド）を参照。母軸はこのファイル。別ファイルは作らず、結果は調査レポート（基本ファイル）と面接稿（統合版）に溶け込ませる。
+> 企業別の就活軸・志望動機・企業決定軸を考えるための方法論は `workflow/axis-motivation-workflow.md`（AI内部ガイド）を参照。母軸はこのファイル。別ファイルは作らず、結果は調査レポート（基本ファイル）と面接稿（統合版）に溶け込ませる。
 
 > **正本フォーマット**: 就活軸は各軸につき ①軸 ②軸の詳細（どんな状態だと満たされるか）③**なぜこの軸を求めるか（満たされると自分にとって何が良いか）** ④優先順位 の4要素で持つ。③は候補者本位の理由であり、会社適配（この会社でどう満たされるか）とは分ける。会社適配は志望動機4層と Fit Map で扱う。
 
@@ -26,7 +26,7 @@ Last updated: <YYYY-MM-DD>
 
 - <価値観・動機の根。自分の実体験から導く>
 
-根拠になる経験（`candidate-profile.md` の Story Bank と接続）:
+根拠になる経験（`profile/candidate-profile.md` の Story Bank と接続）:
 
 - <>
 
@@ -70,8 +70,8 @@ Last updated: <YYYY-MM-DD>
 
 1. このファイルから母軸を2-3個選ぶ。
 2. 企業・職種の言葉に変換する。
-3. `candidate-profile.md` の事実に基づく証拠を紐づける。
+3. `profile/candidate-profile.md` の事実に基づく証拠を紐づける。
 4. 志望動機は「社会に出てやりたいこと → 業界 → 職種 → 会社」の4層で作る。
-5. 自己PRは `PR.md` から主PRを1つ選び、会社向けに調整する。
+5. 自己PRは `profile/PR.md` から主PRを1つ選び、会社向けに調整する。
 
 避けること: 企業ごとに就活軸を完全に作り替える / 会社名だけ差し替えた志望動機にする / 毎回別人のような強みを出す。

@@ -4,26 +4,26 @@ Last updated: <YYYY-MM-DD>
 
 ## これは何か / これは何でないか
 
-利用者本人から経歴を聞き取り、空の `candidate-profile.md`（と `evidence-ledger.md` / `career-criteria.md` / `PR.md` の種）を埋めるための標準手順。
+利用者本人から経歴を聞き取り、空の `profile/candidate-profile.md`（と `profile/evidence-ledger.md` / `profile/career-criteria.md` / `profile/PR.md` の種）を埋めるための標準手順。
 
-- これは**書く側（write path）**。`company-interview-workflow.md` と `application-docs-workflow.md` は、ここで作った正本を**使う側（read path）**。
+- これは**書く側（write path）**。`workflow/company-interview-workflow.md` と `workflow/application-docs-workflow.md` は、ここで作った正本を**使う側（read path）**。
 - **AIが主導して質問し、AIが正本ファイルに書き込む。** ユーザーに空欄テンプレを丸投げしない。
 - 一度しっかり作れば、あとは企業別準備のたびに使い回す。新しい事実が出たら都度ここに追記する。
 
 ## 原則（5つ）
 
 1. **事実をつくらない。** 本人が言っていないことは書かない。曖昧な所は `[仮説]` / `[情報不足]` と明記し、後で確認する。
-2. **盛らない。** 各経験について「どこまで正直に言えるか」の境界を本人と一緒に決め、`candidate-profile.md` の **Packaging Warnings** に登録する。誇張は面接の深掘り一発で崩れる。
+2. **盛らない。** 各経験について「どこまで正直に言えるか」の境界を本人と一緒に決め、`profile/candidate-profile.md` の **Packaging Warnings** に登録する。誇張は面接の深掘り一発で崩れる。
 3. **1ラウンド2〜3問。** 選択式を基本にして答えやすくする（白紙より選ぶ方が出てくる）。ただしストーリーは自由回答で引き出す。
 4. **会話は本人の母語**（中国語など、本人が楽な言語）。**成果物（profile 等）は日本語**で書く。
-5. **数字は測定方法とセット。** 数字が出たら必ず「期間・母数・測定方法・本人の担当範囲」を確認し、`evidence-ledger.md` に Status つきで登録する。
+5. **数字は測定方法とセット。** 数字が出たら必ず「期間・母数・測定方法・本人の担当範囲」を確認し、`profile/evidence-ledger.md` に Status つきで登録する。
 
 ## 進め方（ラウンド構成）
 
 ### Round 0: 基本属性（選択式中心・速い）
 
 志望時期/枠・希望勤務地・志望職種・在留資格・語学/資格・学歴を確認。
-→ 書き込み先: `candidate-profile.md` の Job Search Conditions / Education / Language and Certificates。
+→ 書き込み先: `profile/candidate-profile.md` の Job Search Conditions / Education / Language and Certificates。
 
 ### Round 1: 経歴の棚卸し（広く浅く）
 
@@ -51,8 +51,8 @@ Round 1 の一覧を見て、**AIが「あなたの強みの掛け算」を2〜3
 > 状況は? → あなたの役割は? → **なぜ**その方法を選んだ? → 他の選択肢は? → 周囲の反応は? → 結果は数字で? → 何を学んだ? → **今ならどうする?**
 
 各エピソードで必ず:
-- 数字が出たら → 測定方法・担当範囲を確認 → `evidence-ledger.md` に登録。
-- 「これ以上は盛れない」境界を確認 → `candidate-profile.md` Packaging Warnings に登録。
+- 数字が出たら → 測定方法・担当範囲を確認 → `profile/evidence-ledger.md` に登録。
+- 「これ以上は盛れない」境界を確認 → `profile/candidate-profile.md` Packaging Warnings に登録。
 → 書き込み先: Story Bank に1見出しずつ（STAR ＋ Interview use ＋ Safe phrasing）。
 
 ### Round 4: リスク防御
@@ -62,8 +62,8 @@ Round 1 の一覧を見て、**AIが「あなたの強みの掛け算」を2〜3
 
 ### Round 5: 就活軸とPRの種
 
-Story Bank と Core Positioning から、AIが母軸2〜3個と主PR1本を**仮組み** → 本人確認・微調整。各軸は「満たされる状態」と「なぜ自分が求めるか」まで（`axis-motivation-workflow.md` の方法論）。
-→ 書き込み先: `career-criteria.md`（母軸）/ `PR.md`（主PR）。
+Story Bank と Core Positioning から、AIが母軸2〜3個と主PR1本を**仮組み** → 本人確認・微調整。各軸は「満たされる状態」と「なぜ自分が求めるか」まで（`workflow/axis-motivation-workflow.md` の方法論）。
+→ 書き込み先: `profile/career-criteria.md`（母軸）/ `profile/PR.md`（主PR）。
 
 ## discovery形式（質問の作り方）
 
@@ -75,23 +75,23 @@ Story Bank と Core Positioning から、AIが母軸2〜3個と主PR1本を**仮
 
 | 聞いたこと | 書き込み先ファイル / セクション |
 | --- | --- |
-| 志望条件・学歴・語学 | `candidate-profile.md`: Job Search Conditions / Education / Language |
-| 強みの掛け算・固有要素 | `candidate-profile.md`: Core Positioning / 差別化トークン |
-| 職歴・プロジェクト | `candidate-profile.md`: Work Experience / Major Projects / Personal Projects |
-| STARエピソード | `candidate-profile.md`: Story Bank |
-| 数字・受賞 | `evidence-ledger.md`: Numeric Claims / Awards（Status つき） |
-| 盛れない境界 | `candidate-profile.md`: Packaging Warnings |
-| 弱点と守り方 | `candidate-profile.md`: Interview Risk Defense |
-| 就活軸 | `career-criteria.md`: Mother Criteria |
-| 自己PRの核 | `PR.md`: Core PR Positioning / PR Option |
+| 志望条件・学歴・語学 | `profile/candidate-profile.md`: Job Search Conditions / Education / Language |
+| 強みの掛け算・固有要素 | `profile/candidate-profile.md`: Core Positioning / 差別化トークン |
+| 職歴・プロジェクト | `profile/candidate-profile.md`: Work Experience / Major Projects / Personal Projects |
+| STARエピソード | `profile/candidate-profile.md`: Story Bank |
+| 数字・受賞 | `profile/evidence-ledger.md`: Numeric Claims / Awards（Status つき） |
+| 盛れない境界 | `profile/candidate-profile.md`: Packaging Warnings |
+| 弱点と守り方 | `profile/candidate-profile.md`: Interview Risk Defense |
+| 就活軸 | `profile/career-criteria.md`: Mother Criteria |
+| 自己PRの核 | `profile/PR.md`: Core PR Positioning / PR Option |
 
 ## Definition of Done（intake 完了の定義）
 
-以下が揃えば `company-interview-workflow.md` を回せる:
+以下が揃えば `workflow/company-interview-workflow.md` を回せる:
 
-1. `candidate-profile.md`: Core Positioning ＋ 差別化トークン / Job Search Conditions / Education / 最低2件の Work Experience または Major Projects / **Story Bank 最低4本**（うちチーム系・失敗系を各1本）/ Interview Risk Defense / Packaging Warnings が埋まっている。
-2. `evidence-ledger.md`: 使いそうな数字が最低数件、Status つきで登録されている。
-3. `career-criteria.md`: 母軸2〜3個。`PR.md`: 主PR1本。
+1. `profile/candidate-profile.md`: Core Positioning ＋ 差別化トークン / Job Search Conditions / Education / 最低2件の Work Experience または Major Projects / **Story Bank 最低4本**（うちチーム系・失敗系を各1本）/ Interview Risk Defense / Packaging Warnings が埋まっている。
+2. `profile/evidence-ledger.md`: 使いそうな数字が最低数件、Status つきで登録されている。
+3. `profile/career-criteria.md`: 母軸2〜3個。`profile/PR.md`: 主PR1本。
 4. 各ファイルの `Last updated` を更新済み。
 
 埋めきれない欄は `[仮説]` / `[情報不足]` を残してよい（後の面接準備時の逆質問TODO・discovery で埋める）。
@@ -99,9 +99,9 @@ Story Bank と Core Positioning から、AIが母軸2〜3個と主PR1本を**仮
 ## New Thread Starter Prompt（そのまま使える起動文）
 
 ```text
-私のプロフィールをゼロから作りたいです。profile-intake-workflow.md に従って、
+私のプロフィールをゼロから作りたいです。workflow/profile-intake-workflow.md に従って、
 選択式2〜3問のラウンド形式で私の経歴を聞き取り、STARで主要エピソードを掘り、
-その結果を candidate-profile.md / evidence-ledger.md / career-criteria.md / PR.md に書き込んでください。
+その結果を profile/candidate-profile.md / profile/evidence-ledger.md / profile/career-criteria.md / profile/PR.md に書き込んでください。
 会話は中国語（または私が指定する言語）で、成果物は日本語でお願いします。
 事実は私が言ったことだけ書き、盛れない境界は一緒に決めて Packaging Warnings に登録してください。
 まず Round 0（基本属性）から始めてください。

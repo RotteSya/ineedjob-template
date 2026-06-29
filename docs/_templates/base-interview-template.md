@@ -11,7 +11,7 @@
 - 今回の目的:
 - 最重要な評価ポイント:
 - 一番防御すべきリスク:
-- 使う職務経歴書ベース: `職務経歴書.md`（応募タイプに合わせて会社別に調整）
+- 使う職務経歴書ベース: `profile/職務経歴書.md`（応募タイプに合わせて会社別に調整）
 
 ## 0.5 選考ステージ作戦表
 
@@ -59,7 +59,7 @@
 
 ### 2.1 就活軸（企業探し軸）
 
-`career-criteria.md` の母軸から2-3個選ぶ。**就活軸は候補者側の安定した軸**（会社ごとに作り替えない）。FMT「軸・志望動機の整理」に合わせ、各軸について「**満たされる状態**」と「**なぜ自分が求めるか（満たされると自分にとって何が良いか）**」まで言語化する。この最後の列が面接の深掘り耐性の核（FMTの狙い③）。
+`profile/career-criteria.md` の母軸から2-3個選ぶ。**就活軸は候補者側の安定した軸**（会社ごとに作り替えない）。FMT「軸・志望動機の整理」に合わせ、各軸について「**満たされる状態**」と「**なぜ自分が求めるか（満たされると自分にとって何が良いか）**」まで言語化する。この最後の列が面接の深掘り耐性の核（FMTの狙い③）。
 
 > **混ぜない原則**: 「この会社でどう満たされるか／接続する経験／固有事実」は §2.2 志望動機4層（②業界・③職種・④会社）と §7 Fit Map で扱う。就活軸の表に会社適配を書き込むと、FMTが分けている「候補者の軸」と「企業との接点」が混線し、軸が会社ごとに別物に見える。
 
@@ -161,7 +161,7 @@
 
 ## 5. Risk Defense
 
-`candidate-profile.md` の Interview Risk Defense を読んでから埋める。
+`profile/candidate-profile.md` の Interview Risk Defense を読んでから埋める。
 
 | Risk | Likely Question | Defense Angle | Evidence Needed |
 | --- | --- | --- | --- |
@@ -175,7 +175,7 @@
 
 ## 6. Evidence Checklist
 
-`evidence-ledger.md` から、この会社で使う数字だけ選ぶ。
+`profile/evidence-ledger.md` から、この会社で使う数字だけ選ぶ。
 
 | Claim Used | Evidence Status | Measurement Defense | Personal Contribution | Conservative Phrasing | Next Action |
 | --- | --- | --- | --- | --- | --- |

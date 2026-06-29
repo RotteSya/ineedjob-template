@@ -16,9 +16,9 @@ Last updated: 2026-06-16
 
 | # | チェック | 方法 |
 | --- | --- | --- |
-| A1 | 全エピソード・経歴・日付が `candidate-profile.md` と一致 | 突き合わせ |
-| A2 | 使用した数字がすべて `evidence-ledger.md` に存在し、Status相応の表現（Needs Check/Weakは控えめ表現） | 数字を列挙して照合 |
-| A3 | Packaging Warnings を犯していない（禁止項目は `candidate-profile.md` 末尾の Packaging Warnings を正本とする。例: 未完成物を完成品と言う / 補助経験を主役級に誇張する / 非公開物を公開前提にする 等） | 該当回答を精読 |
+| A1 | 全エピソード・経歴・日付が `profile/candidate-profile.md` と一致 | 突き合わせ |
+| A2 | 使用した数字がすべて `profile/evidence-ledger.md` に存在し、Status相応の表現（Needs Check/Weakは控えめ表現） | 数字を列挙して照合 |
+| A3 | Packaging Warnings を犯していない（禁止項目は `profile/candidate-profile.md` 末尾の Packaging Warnings を正本とする。例: 未完成物を完成品と言う / 補助経験を主役級に誇張する / 非公開物を公開前提にする 等） | 該当回答を精読 |
 | A4 | 提出済みES・履歴書・職務経歴書の記載と矛盾しない（面接は提出書類に基づいて聞かれる） | 同社フォルダの提出書類と照合 |
 | A5 | 会社名・職種名・サービス名・面接官所属の表記が正確（旧社名・誤読に注意） | 公式サイトで確認 |
 | A6 | 個人成果/チーム成果/プロジェクト全体の区別が回答文面から読み取れる | 数字を含む回答を精読 |
@@ -57,7 +57,7 @@ Last updated: 2026-06-16
 | # | チェック | 基準 |
 | --- | --- | --- |
 | D1 | 求める人物像マッピング | 企業の人物像キーワードそれぞれに対応する回答が存在（対応表は基本ファイル側） |
-| D2 | 差別化要素 | 主要回答に、本人の差別化トークン（`candidate-profile.md` の Core Positioning）が1つ以上。かつ同業他社受験者が言えない一文がある |
+| D2 | 差別化要素 | 主要回答に、本人の差別化トークン（`profile/candidate-profile.md` の Core Positioning）が1つ以上。かつ同業他社受験者が言えない一文がある |
 | D3 | **会社入れ替えテスト** | 志望動機・なぜ当社の社名を競合他社名に置換して読む。**そのまま成立したらFail**（Layer 4が汎用ということ） |
 | D4 | 段階適合 | 面接段階（一次/二次/最終）に対し重点質問・逆質問の視座が合っている。最終なら入社意思・覚悟系が厚い |
 | D5 | リスク防御カバー | candidate-profile の標準リスク（本人の Interview Risk Defense に定義: 例 ブランク・新卒枠・過去の失敗・数字・ビザ・専門深掘り）＋企業特有リスクすべてに回答が存在 |
@@ -84,7 +84,7 @@ Last updated: 2026-06-16
 
 原稿を書いたセッションが、別のサブエージェント（Task / Agent）を立てて検証させる。目的は**粗探し**であって追認ではない。
 
-1. 検証エージェントに渡すもの: 面接稿（integrated）、基本ファイル（QAゲート記録欄を空で）、`candidate-profile.md`、`evidence-ledger.md`、本 QA Gate、`standards/japanese-delivery-standard.md`。
+1. 検証エージェントに渡すもの: 面接稿（integrated）、基本ファイル（QAゲート記録欄を空で）、`profile/candidate-profile.md`、`profile/evidence-ledger.md`、本 QA Gate、`standards/japanese-delivery-standard.md`。
 2. 指示文の骨子: 「あなたは面接稿の独立検査官。合格させるのが仕事ではなく、Gate A〜Dの**Fail を実測で見つける**のが仕事。①全回答の文字数を数えて90秒/450字超を列挙 ②文末3連続・文頭『私』比率・『貢献したい』結びの回数を数える ③敬語NG表・書き言葉残存をgrep的に列挙 ④**会社入れ替えテスト**を実際に社名置換して実行し、成立してしまう回答を挙げる ⑤candidate-profileとの事実矛盾・Packaging Warnings 4禁の違反を挙げる。Pass/Failと根拠（数値・該当文）を表で返す。曖昧な合格判定は禁止」。
 3. 返ってきた Fail を修正 → 必要なら再検証。結果と実測メモを基本ファイルの「QAゲート記録」に貼る（検証者＝別エージェントである旨も書く）。
 4. 自己検査で済ませた場合（軽い一次のみ等）は、その判断理由を1行記録する。

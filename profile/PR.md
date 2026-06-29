@@ -12,7 +12,7 @@ Last updated: <YYYY-MM-DD>
 
 > <あなたの強みの核を1文で。会社ごとに作り替えない安定した核にする。>
 
-包装上の注意: `candidate-profile.md` の Packaging Warnings を厳守する。
+包装上の注意: `profile/candidate-profile.md` の Packaging Warnings を厳守する。
 
 ## PR Option 1: <強みの名前>
 
@@ -22,7 +22,7 @@ Last updated: <YYYY-MM-DD>
 
 ### Main Evidence
 
-- <`candidate-profile.md` の Story Bank / 職歴 / プロジェクトから根拠を1〜3個。数字は `evidence-ledger.md` 経由>
+- <`profile/candidate-profile.md` の Story Bank / 職歴 / プロジェクトから根拠を1〜3個。数字は `profile/evidence-ledger.md` 経由>
 
 ### Japanese Draft
 
@@ -44,17 +44,17 @@ Last updated: <YYYY-MM-DD>
 
 ### Japanese Draft
 
-> 2〜5個まで増やしてよい（職種タイプごとに主打を変えられるように）。各 PR は必ず `candidate-profile.md` の事実に基づく。
+> 2〜5個まで増やしてよい（職種タイプごとに主打を変えられるように）。各 PR は必ず `profile/candidate-profile.md` の事実に基づく。
 
 ## Company-Specific Selection Rule
 
 企業別に自己PRを書く時の順番:
 
 1. 求人票の求める人物像を読む。
-2. `career-criteria.md` の母軸から、その会社に合う軸を2-3個選ぶ。
+2. `profile/career-criteria.md` の母軸から、その会社に合う軸を2-3個選ぶ。
 3. このファイルから主PRを1つ選ぶ。
 4. 補助PRを1つだけ選ぶ。
 5. 会社固有の言葉に変換する。
-6. 事実は `candidate-profile.md` と矛盾させない。
+6. 事実は `profile/candidate-profile.md` と矛盾させない。
 
 避けること: 一つの面接で強みを出しすぎる / 会社ごとにまったく別の自己PRにする / 志望動機と自己PRが別方向になる / 経験を過大評価させる言い方にする。

@@ -4,8 +4,8 @@ Last updated: <YYYY-MM-DD>
 
 > このファイルは**あなた自身の事実の唯一の正本**。エンジン（各 workflow / standards / knowledge）はここを読んで面接稿を作る。
 > - 事実でないことは書かない。埋められない欄は `[仮説]` か `[情報不足]` と明記する。
-> - 数字は必ず `evidence-ledger.md` に登録してから使う。
-> - 初めて埋めるときは `profile-intake-workflow.md` に従う（AIが選択式の質問であなたの経歴を引き出しながら埋める）。
+> - 数字は必ず `profile/evidence-ledger.md` に登録してから使う。
+> - 初めて埋めるときは `workflow/profile-intake-workflow.md` に従う（AIが選択式の質問であなたの経歴を引き出しながら埋める）。
 > - 更新したら上の `Last updated` を直す。
 
 ## Core Positioning（自己定位）
@@ -43,7 +43,7 @@ Last updated: <YYYY-MM-DD>
 
 ## Work Experience（職歴）
 
-各社ごとに。STAR で語れる粒度で書く。数字は `evidence-ledger.md` に登録してから使う。
+各社ごとに。STAR で語れる粒度で書く。数字は `profile/evidence-ledger.md` に登録してから使う。
 
 ### <会社名 / 役割>
 
