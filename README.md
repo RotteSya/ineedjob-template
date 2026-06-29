@@ -1,5 +1,7 @@
 # ineedjob-template
 
+> **An AI-assisted, quality-gated template for job-hunting interview prep in Japan** (new-grad / international students). Fill in your profile once; an AI then researches each company and drafts native-level Japanese interview scripts, held to an enforced delivery standard and a pre-ship QA gate. The engine is reusable; your personal facts stay separate. *(Working docs are in Japanese.)*
+
 日本での就職活動（**留学生・新卒**中心）のための面接準備テンプレート。企業別の調査レポートと面接稿を、AIが毎回**同じ高い品質基準**で作るための仕組みを、「エンジン（手順・標準・知識）」と「あなたのデータ（事実・素材）」に分けて管理する。
 
 > このリポジトリは特定個人の中身を含まない**ひな形**。あなたの事実を入れて使う。データファイル（`profile/candidate-profile.md` ほか）は空の状態で入っている。
