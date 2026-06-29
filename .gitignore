@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+
+# Local editor and OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary outputs
+*.tmp
+*.temp
+~$*
+
+# Generated render artifacts (.md is the single source; regenerate on demand)
+*.pdf
+*.html

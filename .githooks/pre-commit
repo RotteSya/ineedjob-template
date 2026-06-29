@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# Keep AGENTS.md and CLAUDE.md byte-identical.
+#
+# They are the same project "soul", duplicated so that different agent tools
+# each find it (Claude Code reads CLAUDE.md; other agent tools read AGENTS.md).
+# See AGENTS.md > Working Style for the rule this hook enforces.
+#
+# This compares the STAGED content of both files (their blob SHAs in the index).
+# If they have diverged, the commit is blocked until they are synced again.
+
+a=$(git rev-parse --verify --quiet :AGENTS.md)
+c=$(git rev-parse --verify --quiet :CLAUDE.md)
+
+if [ "$a" != "$c" ]; then
+	echo "pre-commit blocked: AGENTS.md と CLAUDE.md の内容が一致していません。" >&2
+	echo "" >&2
+	echo "  同期してから再コミットしてください:" >&2
+	echo "    cp AGENTS.md CLAUDE.md && git add AGENTS.md CLAUDE.md" >&2
+	exit 1
+fi
